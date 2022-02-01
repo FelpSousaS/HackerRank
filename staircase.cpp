@@ -7,7 +7,7 @@ string rtrim(const string &);
 
 /*Description:
 Draw a staircase using the symbols # and space.
-Write a program that prints a staircase of size.
+Write a program that prints a staircase of size n.
 
 Ex : 
 	- Input:
@@ -27,7 +27,7 @@ void staircase(int n) {
  
     while(nvezes < n){
         while(n > i){
-            if(i<aux) cout << " ";
+            if(i < aux) cout << " ";
             else cout << "#" ;        
             i++;
         }
